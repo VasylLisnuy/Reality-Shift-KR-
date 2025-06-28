@@ -1,0 +1,68 @@
+:root {
+  --color-scheme-1-background: var(--color-electric-violet-darkest);
+  --color-neutral-darkest: #05000b;
+  --color-scheme-1-border: var(--opacity-white-20);
+  --color-scheme-1-text: var(--color-white);
+  --color-neutral-lighter: #d9d8da;
+  --color-white: #fff;
+  --color-neutral-lightest: #f2f2f2;
+  --color-neutral-light: #b4b2b5;
+  --color-neutral: #827f85;
+  --color-neutral-dark: #504c54;
+  --color-neutral-darker: #1e1923;
+  --opacity-transparent: rgba(255, 255, 255, 0);
+  --color-scheme-1-foreground: var(--color-electric-violet-darker);
+  --color-scheme-1-accent: var(--color-white);
+  --opacity-white-5: rgba(255, 255, 255, 0.05);
+  --opacity-white-10: rgba(255, 255, 255, 0.1);
+  --opacity-white-15: rgba(255, 255, 255, 0.15);
+  --opacity-white-20: rgba(255, 255, 255, 0.2);
+  --opacity-white-30: rgba(255, 255, 255, 0.3);
+  --opacity-white-40: rgba(255, 255, 255, 0.4);
+  --opacity-white-50: rgba(255, 255, 255, 0.5);
+  --opacity-white-60: rgba(255, 255, 255, 0.6);
+  --opacity-neutral-darkest-5: rgba(5, 0, 11, 0.05);
+  --opacity-neutral-darkest-10: rgba(5, 0, 11, 0.1);
+  --opacity-neutral-darkest-15: rgba(5, 0, 11, 0.15);
+  --opacity-neutral-darkest-20: rgba(5, 0, 11, 0.2);
+  --opacity-neutral-darkest-30: rgba(5, 0, 11, 0.3);
+  --opacity-neutral-darkest-40: rgba(5, 0, 11, 0.4);
+  --opacity-neutral-darkest-50: rgba(5, 0, 11, 0.5);
+  --opacity-neutral-darkest-60: rgba(5, 0, 11, 0.6);
+  --color-electric-violet-lightest: #f0e6fb;
+  --color-electric-violet-lighter: #e1cdf8;
+  --color-electric-violet-light: #9652e9;
+  --color-electric-violet: #6a08e0;
+  --color-electric-violet-dark: #5406b3;
+  --color-electric-violet-darker: #2a0359;
+  --color-electric-violet-darkest: #1f0243;
+  --color-red: #ec4c4c;
+}
+
+.container {
+  outline: solid red;
+  max-width: 1312px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-div {
+    display: flex;
+}
+
+.logo-header {
+   width: 84px;
+   height: 36px;
+}
+
+.header-list {
+    display: flex;
+    gap: 32px;
+}
+
+.header-button {
+    display: flex;
+    margin-left: auto;
+}
