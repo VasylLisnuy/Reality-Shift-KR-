@@ -1,42 +1,11 @@
 :root {
-  --color-scheme-1-background: var(--color-electric-violet-darkest);
-  --color-neutral-darkest: #05000b;
-  --color-scheme-1-border: var(--opacity-white-20);
-  --color-scheme-1-text: var(--color-white);
-  --color-neutral-lighter: #d9d8da;
-  --color-white: #fff;
-  --color-neutral-lightest: #f2f2f2;
-  --color-neutral-light: #b4b2b5;
-  --color-neutral: #827f85;
-  --color-neutral-dark: #504c54;
-  --color-neutral-darker: #1e1923;
-  --opacity-transparent: rgba(255, 255, 255, 0);
-  --color-scheme-1-foreground: var(--color-electric-violet-darker);
-  --color-scheme-1-accent: var(--color-white);
-  --opacity-white-5: rgba(255, 255, 255, 0.05);
-  --opacity-white-10: rgba(255, 255, 255, 0.1);
-  --opacity-white-15: rgba(255, 255, 255, 0.15);
-  --opacity-white-20: rgba(255, 255, 255, 0.2);
-  --opacity-white-30: rgba(255, 255, 255, 0.3);
-  --opacity-white-40: rgba(255, 255, 255, 0.4);
-  --opacity-white-50: rgba(255, 255, 255, 0.5);
-  --opacity-white-60: rgba(255, 255, 255, 0.6);
-  --opacity-neutral-darkest-5: rgba(5, 0, 11, 0.05);
-  --opacity-neutral-darkest-10: rgba(5, 0, 11, 0.1);
-  --opacity-neutral-darkest-15: rgba(5, 0, 11, 0.15);
-  --opacity-neutral-darkest-20: rgba(5, 0, 11, 0.2);
-  --opacity-neutral-darkest-30: rgba(5, 0, 11, 0.3);
-  --opacity-neutral-darkest-40: rgba(5, 0, 11, 0.4);
-  --opacity-neutral-darkest-50: rgba(5, 0, 11, 0.5);
-  --opacity-neutral-darkest-60: rgba(5, 0, 11, 0.6);
-  --color-electric-violet-lightest: #f0e6fb;
-  --color-electric-violet-lighter: #e1cdf8;
-  --color-electric-violet-light: #9652e9;
-  --color-electric-violet: #6a08e0;
-  --color-electric-violet-dark: #5406b3;
-  --color-electric-violet-darker: #2a0359;
-  --color-electric-violet-darkest: #1f0243;
-  --color-red: #ec4c4c;
+
+ --background-color: #1F0243 ;
+  
+}
+
+.body {
+  font-family: "Open Sans";
 }
 
 .container {
@@ -49,7 +18,7 @@
 }
 
 .header {
-  background: var(--Color-Scheme-1-Background, #1f0243);
+  background: var(--background-color,#1f0243);
   display: flex;
   height: 72px;
   padding: 0px var(--Page-Padding-padding-global, 64px);
@@ -98,7 +67,7 @@
   color: var(--Color-White, #fff);
   margin-right: 64px;
 
-  font-family: "Open Sans";
+  
   font-size: var(--Text-Sizes-Text-Regular, 18px);
   font-style: normal;
   font-weight: 600;
@@ -127,7 +96,7 @@
   color: var(--Color-White, #fff);
 
   padding-top: 272.5px;
-  font-family: Sora;
+  font-family: "Sora";
   font-size: var(--Text-Sizes-Heading-1, 64px);
   font-style: normal;
   font-weight: 700;
@@ -142,7 +111,7 @@
   padding-top: 24px;
   padding-bottom: 32px;
 
-  font-family: "Open Sans";
+ 
   font-size: var(--Text-Sizes-Text-Medium, 20px);
   font-style: normal;
   font-weight: 400;
@@ -185,7 +154,7 @@
 }
 
 .Game {
-  background: var(--Color-Scheme-1-Background, #1f0243);
+ background: var(--background-color,#1f0243);
   display: flex;
   padding: var(--Section-Padding-padding-section-large, 112px)
     var(--Page-Padding-padding-global, 64px);
@@ -195,12 +164,14 @@
   align-self: stretch;
 }
 
+
+
 .game-title {
   width: 527px;
   flex-shrink: 0;
   color: var(--Color-Scheme-1-Text, #fff);
 
-  font-family: Sora;
+  font-family: "Sora";
   font-size: var(--Text-Sizes-Heading-2, 54px);
   font-style: normal;
   font-weight: 700;
@@ -211,15 +182,17 @@
 .game-text {
   flex: 1 0 0;
   color: var(--Color-Scheme-1-Text, #fff);
-  font-family: "Open Sans";
+  
   font-size: var(--Text-Sizes-Text-Medium, 20px);
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
 }
 
-.game-div {
+.game-dive {
   display: flex;
+  padding-bottom: 56px;
+  gap: 32px;
 }
 
 .game-list {
@@ -250,7 +223,7 @@
   color: #fff;
 
   /* Text/Medium/Semi Bold */
-  font-family: "Open Sans";
+  
   font-size: var(--Text-Sizes-Text-Medium, 20px);
   font-style: normal;
   font-weight: 600;
@@ -263,7 +236,7 @@
   color: #fff;
 
   /* Text/Small/Normal */
-  font-family: "Open Sans";
+  
   font-size: var(--Text-Sizes-Text-Small, 16px);
   font-style: normal;
   font-weight: 400;
@@ -278,7 +251,7 @@
   align-items: center;
   gap: 80px;
   align-self: stretch;
-  background: var(--Color-Scheme-1-Background, #1f0243);
+ background: var(--background-color,#1f0243);
 }
 
 .info-title {
@@ -286,7 +259,7 @@
   color: var(--Color-Scheme-1-Text, #fff);
   text-align: center;
   /* Heading/H3 */
-  font-family: Sora;
+  font-family: "Sora";
   font-size: var(--Text-Sizes-Heading-3, 48px);
   font-style: normal;
   font-weight: 700;
@@ -300,7 +273,7 @@
   text-align: center;
 
   /* Text/Medium/Normal */
-  font-family: "Open Sans";
+  
   font-size: var(--Text-Sizes-Text-Medium, 20px);
   font-style: normal;
   font-weight: 400;
@@ -339,7 +312,7 @@
   text-align: center;
 
   /* Heading/H5 */
-  font-family: Sora;
+  font-family: "Sora";
   font-size: var(--Text-Sizes-Heading-5, 32px);
   font-style: normal;
   font-weight: 700;
@@ -353,7 +326,7 @@
   text-align: center;
 
   /* Text/Regular/Normal */
-  font-family: "Open Sans";
+  
   font-size: var(--Text-Sizes-Text-Regular, 18px);
   font-style: normal;
   font-weight: 400;
@@ -374,7 +347,7 @@
   align-items: center;
   gap: 80px;
   align-self: stretch;
-  background: var(--Color-Scheme-1-Background, #1f0243);
+  background: var(--background-color,#1f0243);
 }
 
 .price-title {
@@ -385,7 +358,7 @@
   text-align: center;
 
   /* Heading/H2 */
-  font-family: Sora;
+  font-family: "Sora";
   font-size: var(--Text-Sizes-Heading-2, 54px);
   font-style: normal;
   font-weight: 700;
@@ -399,7 +372,7 @@
   text-align: center;
   padding-bottom: 80px;
   /* Text/Medium/Normal */
-  font-family: "Open Sans";
+  
   font-size: var(--Text-Sizes-Text-Medium, 20px);
   font-style: normal;
   font-weight: 400;
@@ -433,7 +406,7 @@
   text-align: center;
   padding-bottom: 8px;
   /* Heading/H6 */
-  font-family: Sora;
+  font-family: "Sora";
   font-size: var(--Text-Sizes-Heading-6, 26px);
   font-style: normal;
   font-weight: 700;
@@ -447,7 +420,7 @@
   text-align: center;
   padding-bottom: 32px;
   /* Heading/H1 */
-  font-family: Sora;
+  font-family: "Sora";
   font-size: var(--Text-Sizes-Heading-1, 64px);
   font-style: normal;
   font-weight: 700;
@@ -456,12 +429,13 @@
 }
 
 .price-item-text {
-  display: flex;
-  padding: 8px 0px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 16px;
-  align-self: stretch;
+  color: var(--Color-Scheme-1-Text, #FFF);
+/* Text/Regular/Normal */
+
+font-size: var(--Text-Sizes-Text-Regular, 18px);
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 27px */
 }
 
 .price-button {
@@ -492,6 +466,11 @@
   align-items: flex-start;
   gap: 16px;
   align-self: stretch;
+}
+
+.text-and-check {
+  display: flex;
+  gap: 16px;
 }
 
 
