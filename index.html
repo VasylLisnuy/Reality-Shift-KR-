@@ -241,38 +241,60 @@
       </section>
 
       <!-- Section Reservation -->
-      <section class="Reservation">
-        <div class="container">
-          <h3>Забронювати</h3>
-          <h2 class="Reservation-title">Забронюйте сеанс</h2>
-          <p class="Reservation-text">
-            Заповніть форму, щоб забронювати сеанс.
-          </p>
-          <div class="Reservation-input"></div>
-          <p>Ім'я</p>
-          <p>Електронна пошта</p>
-          <input type="email" />
-          <p>Пакет</p>
+       <section class="booking-section">
+    <div class="booking-container container">
+      <div class="text-content">
+        <h5 class="booking-subtitle">Забронювати</h5>
+        <h1 class="booking-title">Забронюйте сеанс</h1>
+        <p class="booking-p-text">Заповніть форму, щоб забронювати сеанс.</p>
+      </div>
+      <form class="booking-form">
+        <label for="name" class="name">Ім'я*</label>
+        <input type="text" id="name" class="name-input" placeholder="Андрій" required>
 
-          <button>Забронювати</button>
+        <label for="email" class="email">Електронна пошта*</label>
+        <input type="email" id="email" placeholder="hello@realityshift.com" required>
+
+        <label>Пакет*</label>
+        <div class="radio-group">
+          <label><input type="radio" name="package" value="start" checked> Старт</label>
+          <label><input type="radio" name="package" value="standard"> Стандарт</label>
+          <label><input type="radio" name="package" value="premium"> Преміум</label>
+          <label><input type="radio" name="package" value="company"> Компанія</label>
         </div>
-      </section>
+
+        <button type="submit">Забронювати</button>
+      </form>
+    </div>
+  </section>
 
       <!-- Section Info-2 -->
-      <section>
-        <div class="container">
-          <h2>Моменти Занурення: Наша Галерея</h2>
-          <p>
+      <section class="info-2">
+        <div class="info-2-div container">
+          <h2 class="info-2-title">Моменти Занурення: Наша Галерея</h2>
+          <p class="info-2-text">
             Перегляньте фотографії з наших ігрових сесій та подій, щоб відчути
             атмосферу та побачити емоції наших відвідувачів. Кожен кадр – це
             частина незабутньої пригоди у віртуальній реальності.
           </p>
-          <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+          <ul class="info-2-list">
+            <li class="info-2-item">
+              <img src="./Photo/info-photo1.webp" alt="photo">
+            </li>
+            <div class="box-info">
+            <li class="info-2-item">
+              <img src="./Photo/info-photo2.webp" alt="">
+            </li>
+            <li class="info-2-item">
+              <img src="./Photo/info-photo3.webp" alt="">
+            </li>
+            <li class="info-2-item">
+            <img src="./Photo/info-photo4.webp" alt="">
+            </li>
+            <li class="info-2-item">
+              <img src="./Photo/info-photo5.webp" alt="">
+            </li>
+            </div>
           </ul>
         </div>
       </section>

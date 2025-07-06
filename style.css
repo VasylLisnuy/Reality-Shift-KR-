@@ -259,6 +259,7 @@
   color: var(--Color-Scheme-1-Text, #fff);
   text-align: center;
   /* Heading/H3 */
+  padding-bottom: 16px;
   font-family: "Sora";
   font-size: var(--Text-Sizes-Heading-3, 48px);
   font-style: normal;
@@ -271,6 +272,7 @@
   align-self: stretch;
   color: var(--Color-Scheme-1-Text, #fff);
   text-align: center;
+  padding-bottom: 80px;
 
   /* Text/Medium/Normal */
   
@@ -473,6 +475,218 @@ line-height: 150%; /* 27px */
   gap: 16px;
 }
 
+.booking-section {
+  display: flex;
+padding: var(--Section-Padding-padding-section-large, 112px) var(--Page-Padding-padding-global, 64px);
+flex-direction: column;
+align-items: center;
+gap: 80px;
+align-self: stretch;
+background: var(--Color-Scheme-1-Background, #1F0243);
+}
+
+.booking-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  width: 100%;
+  gap: 32px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.booking-subtitle {
+  color: var(--Color-Scheme-1-Text, #FFF);
+
+/* Heading/Tagline */
+font-family: "Open Sans";
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 24px */
+}
+
+.booking-title {
+  align-self: stretch;
+  color: var(--Color-Scheme-1-Text, #FFF);
+
+/* Heading/H2 */
+font-family: Sora;
+font-size: var(--Text-Sizes-Heading-2, 54px);
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 54px */
+letter-spacing: -0.54px;
+}
+
+.booking-p-text {
+  align-self: stretch;
+  color: var(--Color-Scheme-1-Text, #FFF);
+
+/* Text/Medium/Normal */
+font-family: "Open Sans";
+font-size: var(--Text-Sizes-Text-Medium, 20px);
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 30px */
+}
 
 
+
+.booking-form {
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 8px;
+align-self: stretch;
+}
+
+
+
+.name {
+  align-self: stretch;
+  color: var(--Color-Scheme-1-Text, #FFF);
+
+/* Text/Regular/Normal */
+font-family: "Open Sans";
+font-size: var(--Text-Sizes-Text-Regular, 18px);
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 27px */
+}
+
+
+.name-input {
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 4px;
+align-self: stretch;
+}
+
+
+.email {
+  align-self: stretch;
+  color: var(--Color-Scheme-1-Text, #FFF);
+
+/* Text/Regular/Normal */
+font-family: "Open Sans";
+font-size: var(--Text-Sizes-Text-Regular, 18px);
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 27px */
+}
+
+.booking-form label {
+  font-size: 0.95rem;
+}
+
+.booking-form input[type="text"],
+.booking-form input[type="email"] {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.booking-form input::placeholder {
+  color: #aaa;
+}
+
+.radio-group {
+  display: flex;
+align-items: center;
+gap: 12px;
+color: var(--Color-Scheme-1-Text, #FFF);
+
+/* Text/Regular/Normal */
+font-family: "Open Sans";
+font-size: var(--Text-Sizes-Text-Regular, 18px);
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 27px */
+}
+
+.radio-group label {
+  font-weight: normal;
+}
+
+.booking-form button {
+  margin-top: 15px;
+  padding: 12px;
+  background: linear-gradient(to right, #9b00ff, #7100ff);
+  border: none;
+  color: white;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.booking-form button:hover {
+  background: linear-gradient(to right, #b833ff, #8a33ff);
+}
+
+.info-2-div {
+  display: flex;
+max-width: var(--Container-container-large, 1280px);
+flex-direction: column;
+align-items: center;
+gap: 80px;
+align-self: stretch;
+}
+
+.info-2 {
+  display: flex;
+width: 1440px;
+padding: var(--Section-Padding-padding-section-large, 112px) var(--Page-Padding-padding-global, 64px);
+flex-direction: column;
+align-items: center;
+gap: 80px;
+background: var(--Color-Scheme-1-Background, #1F0243); 
+}
+
+.info-2-title {
+  width: 675px;
+  color: var(--Color-Scheme-1-Text, #FFF);
+text-align: center;
+
+/* Heading/H2 */
+font-family: Sora;
+font-size: var(--Text-Sizes-Heading-2, 54px);
+font-style: normal;
+font-weight: 700;
+line-height: 100%; /* 54px */
+letter-spacing: -0.54px;
+}
+
+.info-2-text {
+  align-self: stretch;
+  color: var(--Color-Scheme-1-Text, #FFF);
+text-align: center;
+
+/* Text/Medium/Normal */
+font-family: "Open Sans";
+font-size: var(--Text-Sizes-Text-Medium, 20px);
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 30px */
+}
+
+.info-2-list {
+  display: flex;
+align-items: flex-start;
+gap: 32px;
+align-self: stretch;
+}
+
+.box-info {
+ display: flex;
+align-items: flex-start;
+gap: 32px;
+align-self: stretch;
+
+}
 
