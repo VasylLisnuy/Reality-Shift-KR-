@@ -13,6 +13,7 @@ body {
   padding-right: 16px;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
 }
 
 .header {
@@ -811,7 +812,7 @@ align-items: center;
 
 .footer-text {
   color: var(--Color-Scheme-1-Text, #FFF);
-
+margin-top: 32px;
 /* Text/Small/Semi Bold */
 font-family: "Open Sans";
 font-size: var(--Text-Sizes-Text-Small, 16px);
@@ -822,7 +823,7 @@ line-height: 150%; /* 24px */
 
 .footer-address {
   color: var(--Color-Scheme-1-Text, #FFF);
-
+margin-bottom: 24px;
 /* Text/Small/Normal */
 font-family: "Open Sans";
 font-size: var(--Text-Sizes-Text-Small, 16px);
@@ -849,3 +850,71 @@ font-style: normal;
 font-weight: 600;
 line-height: 150%; /* 24px */
 }
+
+.footer-sublist {
+  margin-top: 32px;
+display: flex;
+gap: 12px;
+}
+
+.footer-icon {
+  
+  width: 24px;
+height: 24px;
+}
+
+.right-footer {
+  margin-left: auto;
+  
+}
+
+.right-list {
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+gap: 16px;
+  
+}
+
+.box-footer {
+  display: flex;
+}
+
+.left-footer {
+ 
+}
+
+.right-item {
+  gap: 16px;
+}
+
+.right-link {
+  color: #FFF;
+
+
+font-family: "Open Sans";
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 27px */
+}
+
+.prava-text {
+  color: var(--Color-Scheme-1-Text, #FFF);
+
+/* Text/Small/Normal */
+font-family: "Open Sans";
+font-size: var(--Text-Sizes-Text-Small, 16px);
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+}
+
+.prava {
+  border-top: 1px solid white;
+
+ text-align: center;
+}
+
+
