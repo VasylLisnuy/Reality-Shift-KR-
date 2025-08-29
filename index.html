@@ -9,10 +9,16 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Sora:wght@100..800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="stylesheet" href="./reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./reset.css" />
     <link rel="stylesheet" href="./style.css" />
-    
+
     <title>Document</title>
   </head>
 
@@ -21,11 +27,12 @@
       <div class="container">
         <nav>
           <div class="header-info">
-            
             <ul class="header-list">
-              <li><a href="" class="logo-header"
-                ><img src="./photo/logoheader.webp" alt="Логотип"
-              /></a></li>
+              <li>
+                <a href="" class="logo-header"
+                  ><img src="./photo/logoheader.webp" alt="Логотип"
+                /></a>
+              </li>
 
               <li>Про нас</li>
               <li>Ігри</li>
@@ -112,7 +119,10 @@
 
           <ul class="info-list">
             <li class="info-item">
-              <img src="./Photo/info-icon1.webp" alt="1" class="info-icon" />
+              <!-- <img src="./Photo/info-icon1.webp" alt="1" class="info-icon" /> -->
+              <svg class="info-icon">
+                <use href="./image/icons.svg#icon-oladnenya"></use>
+              </svg>
               <h3 class="info-subtitle">Сучасне обладнання</h3>
               <p class="info-item-text">
                 Найновіші VR-гарнітури та потужні ПК для максимальної
@@ -120,7 +130,10 @@
               </p>
             </li>
             <li class="info-item">
-              <img src="./Photo/info-icon2.webp" alt="2" class="info-icon" />
+              <!-- <img src="./Photo/info-icon2.webp" alt="2" class="info-icon" /> -->
+              <svg class="info-icon">
+                <use href="./image/icons.svg#icon-big-games"></use>
+              </svg>
               <h3 class="info-subtitle">Широкий вибір ігор</h3>
               <p class="info-item-text">
                 Велика бібліотека ігор на будь-який смак та вік, від екшену до
@@ -128,7 +141,10 @@
               </p>
             </li>
             <li class="info-item">
-              <img src="./Photo/info-icon3.webp" alt="3" class="info-icon" />
+              <!-- <img src="./Photo/info-icon3.webp" alt="3" class="info-icon" /> -->
+              <svg class="info-icon">
+                <use href="./image/icons.svg#icon-zone-komfort"></use>
+              </svg>
               <h3 class="info-subtitle">Комфортні зони</h3>
               <p class="info-item-text">
                  Просторе та безпечне середовище для гри, що забезпечує повне
@@ -136,7 +152,10 @@
               </p>
             </li>
             <li class="info-item">
-              <img src="./Photo/info-icon4.webp" alt="4" class="info-icon" />
+              <!-- <img src="./Photo/info-icon4.webp" alt="4" class="info-icon" /> -->
+              <svg class="info-icon">
+                <use href="./image/icons.svg#icon-notbook"></use>
+              </svg>
               <h3 class="info-subtitle">Досвідчені інструктори</h3>
               <p class="info-item-text">
                  Професійна допомога та поради для новачків, а також супровід
@@ -144,7 +163,10 @@
               </p>
             </li>
             <li class="info-item">
-              <img src="./Photo/info-icon5.webp" alt="5" class="info-icon" />
+              <!-- <img src="./Photo/info-icon5.webp" alt="5" class="info-icon" /> -->
+              <svg class="info-icon">
+                <use href="./image/icons.svg#icon-tarifi"></use>
+              </svg>
               <h3 class="info-subtitle">Гнучкі тарифи</h3>
               <p class="info-item-text">
                 Різноманітні пакети та знижки для індивідуальних відвідувачів та
@@ -152,7 +174,10 @@
               </p>
             </li>
             <li class="info-item">
-              <img src="./Photo/info-icon6.webp" alt="6" class="info-icon" />
+              <!-- <img src="./Photo/info-icon6.webp" alt="6" class="info-icon" /> -->
+              <svg class="info-icon">
+                <use href="./image/icons.svg#icon-cake"></use>
+              </svg>
               <h3 class="info-subtitle">Ідеально для свят</h3>
               <p class="info-item-text">
                 Чудове місце для проведення днів народжень, корпоративів та
@@ -410,7 +435,35 @@
 
           <ul class="reviews-list">
             <li class="reviews-item">
-              <img src="./Photo/Stars.webp" alt="stars" class="stars-img" />
+              <!-- <img src="./Photo/Stars.webp" alt="stars" class="stars-img" /> -->
+              <ul class="star-list">
+                <li class="star-list-item">
+                  <svg>
+                    <use href="./image/icons.svg#icon-star_filled"></use>
+                  </svg>
+                </li>
+                <li class="star-list-item">
+                  <svg>
+                    <use href="./image/icons.svg#icon-star_filled"></use>
+                  </svg>
+                </li>
+                <li class="star-list-item">
+                  <svg>
+                    <use href="./image/icons.svg#icon-star_filled"></use>
+                  </svg>
+                </li>
+                <li class="star-list-item">
+                  <svg>
+                    <use href="./image/icons.svg#icon-star_filled"></use>
+                  </svg>
+                </li>
+                <li class="star-list-item">
+                  <svg>
+                    <use href="./image/icons.svg#icon-star_filled"></use>
+                  </svg>
+                </li>
+              </ul>
+
               <p class="reviews-text">
                 Це було неймовірно! Повне занурення, графіка на висоті.
                 Обов'язково повернуся ще раз
@@ -418,7 +471,34 @@
               <h3 class="reviews-name">Максим К.</h3>
             </li>
             <li class="reviews-item">
-              <img src="./Photo/Stars1.webp" alt="stars" class="stars-img" />
+              <!-- <img src="./Photo/Stars1.webp" alt="stars" class="stars-img" /> -->
+              <ul class="star-list">
+                <li class="star-list-item">
+                  <svg>
+                    <use href="./image/icons.svg#icon-star_filled"></use>
+                  </svg>
+                </li>
+                <li class="star-list-item">
+                  <svg>
+                    <use href="./image/icons.svg#icon-star_filled"></use>
+                  </svg>
+                </li>
+                <li class="star-list-item">
+                  <svg>
+                    <use href="./image/icons.svg#icon-star_filled"></use>
+                  </svg>
+                </li>
+                <li class="star-list-item">
+                  <svg>
+                    <use href="./image/icons.svg#icon-star_filled"></use>
+                  </svg>
+                </li>
+                <li class="star-list-item">
+                  <svg>
+                    <use href="./image/icons.svg#icon-icon-star_rate"></use>
+                  </svg>
+                </li>
+              </ul>
               <p class="reviews-text">
                 Дуже сподобалось, великий вибір ігор. Трохи незручно було з
                 гарнітурою, але загалом враження позитивні
@@ -426,7 +506,34 @@
               <h3 class="reviews-name">Олена С.</h3>
             </li>
             <li class="reviews-item">
-              <img src="./Photo/Stars.webp" alt="stars" class="stars-img" />
+              <!-- <img src="./Photo/Stars.webp" alt="stars" class="stars-img" /> -->
+              <ul class="star-list">
+                <li class="star-list-item">
+                  <svg>
+                    <use href="./image/icons.svg#icon-star_filled"></use>
+                  </svg>
+                </li>
+                <li class="star-list-item">
+                  <svg>
+                    <use href="./image/icons.svg#icon-star_filled"></use>
+                  </svg>
+                </li>
+                <li class="star-list-item">
+                  <svg>
+                    <use href="./image/icons.svg#icon-star_filled"></use>
+                  </svg>
+                </li>
+                <li class="star-list-item">
+                  <svg>
+                    <use href="./image/icons.svg#icon-star_filled"></use>
+                  </svg>
+                </li>
+                <li class="star-list-item">
+                  <svg>
+                    <use href="./image/icons.svg#icon-star_filled"></use>
+                  </svg>
+                </li>
+              </ul>
               <p class="reviews-text">
                 Відсвяткували день народження сина, діти були у захваті!
                 Інструктори дуже допомагали
@@ -434,7 +541,34 @@
               <h3 class="reviews-name">Ірина В.</h3>
             </li>
             <li class="reviews-item">
-              <img src="./Photo/Stars.webp" alt="stars" class="stars-img" />
+              <!-- <img src="./Photo/Stars.webp" alt="stars" class="stars-img" /> -->
+              <ul class="star-list">
+                <li class="star-list-item">
+                  <svg>
+                    <use href="./image/icons.svg#icon-star_filled"></use>
+                  </svg>
+                </li>
+                <li class="star-list-item">
+                  <svg>
+                    <use href="./image/icons.svg#icon-star_filled"></use>
+                  </svg>
+                </li>
+                <li class="star-list-item">
+                  <svg>
+                    <use href="./image/icons.svg#icon-star_filled"></use>
+                  </svg>
+                </li>
+                <li class="star-list-item">
+                  <svg>
+                    <use href="./image/icons.svg#icon-star_filled"></use>
+                  </svg>
+                </li>
+                <li class="star-list-item">
+                  <svg>
+                    <use href="./image/icons.svg#icon-star_filled"></use>
+                  </svg>
+                </li>
+              </ul>
               <p class="reviews-text">
                 Найкращий VR-клуб у місті! Привітний персонал, чисте обладнання,
                 море емоцій
@@ -442,14 +576,68 @@
               <h3 class="reviews-name">Дмитро П.</h3>
             </li>
             <li class="reviews-item">
-              <img src="./Photo/Stars.webp" alt="stars" class="stars-img" />
+              <!-- <img src="./Photo/Stars.webp" alt="stars" class="stars-img" /> -->
+              <ul class="star-list">
+                <li class="star-list-item">
+                  <svg>
+                    <use href="./image/icons.svg#icon-star_filled"></use>
+                  </svg>
+                </li>
+                <li class="star-list-item">
+                  <svg>
+                    <use href="./image/icons.svg#icon-star_filled"></use>
+                  </svg>
+                </li>
+                <li class="star-list-item">
+                  <svg>
+                    <use href="./image/icons.svg#icon-star_filled"></use>
+                  </svg>
+                </li>
+                <li class="star-list-item">
+                  <svg>
+                    <use href="./image/icons.svg#icon-star_filled"></use>
+                  </svg>
+                </li>
+                <li class="star-list-item">
+                  <svg>
+                    <use href="./image/icons.svg#icon-star_filled"></use>
+                  </svg>
+                </li>
+              </ul>
               <p class="reviews-text">
                 Вражаючі світи та повна свобода рухів. Це новий рівень розваг!
               </p>
               <h3 class="reviews-name">Анна Л.</h3>
             </li>
             <li class="reviews-item">
-              <img src="./Photo/Stars1.webp" alt="stars" class="stars-img" />
+              <!-- <img src="./Photo/Stars1.webp" alt="stars" class="stars-img" /> -->
+              <ul class="star-list">
+                <li class="star-list-item">
+                  <svg>
+                    <use href="./image/icons.svg#icon-star_filled"></use>
+                  </svg>
+                </li>
+                <li class="star-list-item">
+                  <svg>
+                    <use href="./image/icons.svg#icon-star_filled"></use>
+                  </svg>
+                </li>
+                <li class="star-list-item">
+                  <svg>
+                    <use href="./image/icons.svg#icon-star_filled"></use>
+                  </svg>
+                </li>
+                <li class="star-list-item">
+                  <svg>
+                    <use href="./image/icons.svg#icon-star_filled"></use>
+                  </svg>
+                </li>
+                <li class="star-list-item">
+                  <svg>
+                    <use href="./image/icons.svg#icon-star_rate_half"></use>
+                  </svg>
+                </li>
+              </ul>
               <p class="reviews-text">
                 Чудове місце для відпочинку з друзями. Отримали багато
                 позитивних емоцій.
@@ -483,30 +671,42 @@
 
             <ul class="footer-sublist">
               <li class="footer-item">
-                <a class="footer-link" href="https://www.facebook.com/?locale=uk_UA">
-                  <img
+                <a
+                  class="footer-link"
+                  href="https://www.facebook.com/?locale=uk_UA"
+                >
+                  <!-- <img
                     src="./photo/facebook1.webp"
                     alt="facebook"
                     class="footer-icon"
-                  />
+                  /> -->
+                  <svg class="footer-icon">
+                    <use href="./image/icons.svg#icon-Facebook"></use>
+                  </svg>
                 </a>
               </li>
               <li class="footer-item">
                 <a class="footer-link" href="https://www.instagram.com/">
-                  <img
+                  <!-- <img
                     src="./photo/insta.webp"
                     alt="instagram"
                     class="footer-icon"
-                  />
+                  /> -->
+                  <svg class="footer-icon">
+                    <use href="./image/icons.svg#icon-Instagram"></use>
+                  </svg>
                 </a>
               </li>
               <li class="footer-item">
                 <a class="footer-link" href="https://www.tiktok.com/uk-UA/">
-                  <img
+                  <!-- <img
                     src="./photo/tiktok1.webp"
                     alt="tiktok"
                     class="footer-icon"
-                  />
+                  /> -->
+                  <svg class="footer-icon">
+                    <use href="./image/icons.svg#icon-tiktok"></use>
+                  </svg>
                 </a>
               </li>
             </ul>

@@ -352,6 +352,8 @@ margin-left: 16px;
 }
 
 .info-icon {
+  stroke: #FFF;
+  fill: transparent;
   width: 48px;
   height: 48px;
   aspect-ratio: 1/1;
