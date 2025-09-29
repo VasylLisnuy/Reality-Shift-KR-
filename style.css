@@ -981,3 +981,33 @@ stroke: white;
 
   text-align: center;
 }
+
+
+.backdrop {
+  background-color: rgba(78, 32, 124, 0.5);
+  backdrop-filter: blur(3px);
+  position: fixed;
+top: 0;
+bottom: 0;
+right: 0;
+left: 0;
+}
+
+.model {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 11px;
+
+}
+
+.model-exit-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+outline: red solid;
+}
