@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
     integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="./reset.css" />
   <link rel="stylesheet" href="./style.css" />
 
@@ -68,16 +70,18 @@
     <!-- Section Hero -->
     <section class="hero" id="title">
       <div class="container">
-        <h1 class="hero-title">
+        <h1 class="hero-title" data-aos="fade-up" data-aos-duration="3000">
           Поринь у Віртуальну Реальність Твоя Пригода Починається Тут!
         </h1>
-        <p class="hero-text">
+        <p class="hero-text" data-aos="fade-up" data-aos-duration="3000">
           Відчуй повне занурення у світи, де можливо все. ㅤ Найсучасніші
           VR-технології та безліч ігор чекають на тебе!
         </p>
         <div class="hero-button-div">
-          <button class="hero-button">Забронювати Сеанс</button>
-          <button class="hero-button2">Дізнатися більше</button>
+          <button class="hero-button" data-aos="fade-right" data-aos-offset="300" data-aos-duration="1000"
+            data-aos-easing="ease-in-sine">Забронювати Сеанс</button>
+          <button class="hero-button2" data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500"
+            data-aos-duration="1500">Дізнатися більше</button>
         </div>
       </div>
     </section>
@@ -96,27 +100,27 @@
           </p>
         </div>
         <ul class="game-list">
-          <li class="game-item">
+          <li class="game-item" data-aos="flip-up" data-aos-duration="900">
             <img src="./Photo/game-card1.webp" alt="1" />
             <h3 class="game-subtitle">Beat Saber</h3>
             <p class="game-item-text">Музичний ритм-шутер</p>
           </li>
-          <li class="game-item">
+          <li class="game-item" data-aos="flip-down" data-aos-duration="900">
             <img src="./Photo/game-card2.webp" alt="2" />
             <h3 class="game-subtitle">>Half-Life: Alyx</h3>
             <p class="game-item-text">Захоплюючий пригодницький шутер</p>
           </li>
-          <li class="game-item">
+          <li class="game-item" data-aos="flip-up" data-aos-duration="900">
             <img src="./Photo/game-card3.webp" alt="3" />
             <h3 class="game-subtitle">>Superhot VR</h3>
             <p class="game-item-text">Стильний шутер з уповільненням часу</p>
           </li>
-          <li class="game-item">
+          <li class="game-item" data-aos="flip-down" data-aos-duration="900">
             <img src="./Photo/game-card4.webp" alt="4" />
             <h3 class="game-subtitle">>Pistol Whip</h3>
             <p class="game-item-text">Ритмічний шутер у стилі вестерну</p>
           </li>
-          <li class="game-item">
+          <li class="game-item" data-aos="flip-up" data-aos-duration="900">
             <img src="./Photo/game-card5.webp" alt="5" />
             <h3 class="game-subtitle">Job Simulator</h3>
             <p class="game-item-text">Веселий симулятор професій.</p>
@@ -134,7 +138,7 @@
         </p>
 
         <ul class="info-list">
-          <li class="info-item">
+          <li class="info-item" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
             <!-- <img src="./Photo/info-icon1.webp" alt="1" class="info-icon" /> -->
             <svg class="info-icon">
               <use href="./image/icons.svg#icon-oladnenya"></use>
@@ -148,7 +152,7 @@
               <a href="" class="overlay-link">Забронювати</a>
             </div>
           </li>
-          <li class="info-item">
+          <li class="info-item" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
             <!-- <img src="./Photo/info-icon2.webp" alt="2" class="info-icon" /> -->
             <svg class="info-icon">
               <use href="./image/icons.svg#icon-big-games"></use>
@@ -162,7 +166,7 @@
               <a href="" class="overlay-link">Забронювати</a>
             </div>
           </li>
-          <li class="info-item">
+          <li class="info-item" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
             <!-- <img src="./Photo/info-icon3.webp" alt="3" class="info-icon" /> -->
             <svg class="info-icon">
               <use href="./image/icons.svg#icon-zone-komfort"></use>
@@ -176,7 +180,7 @@
               <a href="" class="overlay-link">Забронювати</a>
             </div>
           </li>
-          <li class="info-item">
+          <li class="info-item" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
             <!-- <img src="./Photo/info-icon4.webp" alt="4" class="info-icon" /> -->
             <svg class="info-icon">
               <use href="./image/icons.svg#icon-notbook"></use>
@@ -190,7 +194,7 @@
               <a href="" class="overlay-link">Забронювати</a>
             </div>
           </li>
-          <li class="info-item">
+          <li class="info-item" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
             <!-- <img src="./Photo/info-icon5.webp" alt="5" class="info-icon" /> -->
             <svg class="info-icon">
               <use href="./image/icons.svg#icon-tarifi"></use>
@@ -204,7 +208,7 @@
               <a href="" class="overlay-link">Забронювати</a>
             </div>
           </li>
-          <li class="info-item">
+          <li class="info-item" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="800">
             <!-- <img src="./Photo/info-icon6.webp" alt="6" class="info-icon" /> -->
             <svg class="info-icon">
               <use href="./image/icons.svg#icon-cake"></use>
@@ -233,7 +237,7 @@
           </p>
 
           <ul class="price-list">
-            <li class="price-item">
+            <li class="price-item animate__animated animate__pulse" data-aos="fade-up" data-aos-duration="900">
               <div>
                 <h4 class="price-subtitle-h4"> "Старт"</h4>
                 <h3 class="price-subtitle-h3">₴200</h3>
@@ -251,7 +255,7 @@
               <button class="price-button">Розпочати гру</button>
             </li>
 
-            <li class="price-item">
+            <li class="price-item animate__animated animate__pulse" data-aos="fade-up" data-aos-duration="900">
               <div>
                 <h4 class="price-subtitle-h4">"Стандарт"</h4>
                 <h3 class="price-subtitle-h3">₴350</h3>
@@ -268,7 +272,7 @@
               </div>
               <button class="price-button" data-modal-open>Розпочати гру</button>
             </li>
-            <li class="price-item">
+            <li class="price-item animate__animated animate__pulse" data-aos="fade-up" data-aos-duration="900">
               <div>
                 <h4 class="price-subtitle-h4">"Преміум"</h4>
                 <h3 class="price-subtitle-h3">₴500</h3>
@@ -290,7 +294,7 @@
 
               <button class="price-button">Розпочати гру</button>
             </li>
-            <li class="price-item">
+            <li class="price-item animate__animated animate__pulse" data-aos="fade-up" data-aos-duration="900">
               <div>
                 <h4 class="price-subtitle-h4"> "Компанія"</h4>
                 <h3 class="price-subtitle-h3">₴1500</h3>
@@ -324,14 +328,15 @@
     <!-- Section Reservation -->
     <section class="booking-section" id="">
       <div class="booking-container container">
-        <div class="booking-content">
+        <div class="booking-content" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" >
           <h5 class="booking-subtitle">Забронювати</h5>
           <h1 class="booking-title">Забронюйте сеанс</h1>
           <p class="booking-p-text">
             Заповніть форму, щоб забронювати сеанс.
           </p>
         </div>
-        <form class="booking-form">
+        <form class="booking-form" data-aos="fade-left" data-aos-anchor="#example-anchor" 
+          data-aos-duration="500">
           <label for="name" class="name">Ім'я*</label>
           <input type="text" id="name" class="name-input" placeholder="Андрій" required />
 
@@ -406,7 +411,7 @@
         </p>
 
         <ul class="reviews-list">
-          <li class="reviews-item">
+          <li class="reviews-item" data-aos="zoom-in-right">
             <!-- <img src="./Photo/Stars.webp" alt="stars" class="stars-img" /> -->
             <ul class="star-list">
               <li class="star-list-item">
@@ -442,7 +447,7 @@
             </p>
             <h3 class="reviews-name">Максим К.</h3>
           </li>
-          <li class="reviews-item">
+          <li class="reviews-item" data-aos="zoom-in-left">
             <!-- <img src="./Photo/Stars1.webp" alt="stars" class="stars-img" /> -->
             <ul class="star-list">
               <li class="star-list-item">
@@ -477,7 +482,7 @@
             </p>
             <h3 class="reviews-name">Олена С.</h3>
           </li>
-          <li class="reviews-item">
+          <li class="reviews-item" data-aos="zoom-in-right">
             <!-- <img src="./Photo/Stars.webp" alt="stars" class="stars-img" /> -->
             <ul class="star-list">
               <li class="star-list-item">
@@ -512,7 +517,7 @@
             </p>
             <h3 class="reviews-name">Ірина В.</h3>
           </li>
-          <li class="reviews-item">
+          <li class="reviews-item" data-aos="zoom-in-left">
             <!-- <img src="./Photo/Stars.webp" alt="stars" class="stars-img" /> -->
             <ul class="star-list">
               <li class="star-list-item">
@@ -547,7 +552,7 @@
             </p>
             <h3 class="reviews-name">Дмитро П.</h3>
           </li>
-          <li class="reviews-item">
+          <li class="reviews-item" data-aos="zoom-in-right">
             <!-- <img src="./Photo/Stars.webp" alt="stars" class="stars-img" /> -->
             <ul class="star-list">
               <li class="star-list-item">
@@ -581,7 +586,7 @@
             </p>
             <h3 class="reviews-name">Анна Л.</h3>
           </li>
-          <li class="reviews-item">
+          <li class="reviews-item" data-aos="zoom-in-left">
             <!-- <img src="./Photo/Stars1.webp" alt="stars" class="stars-img" /> -->
             <ul class="star-list">
               <li class="star-list-item">
@@ -623,7 +628,7 @@
 
   <footer class="footer" id="about">
     <div class="container">
-      <div class="box-footer">
+      <div class="box-footer"  data-aos="fade-up">
         <div class="left-footer">
           <img src="./Photo/LogoHeader-Footer.webp" alt="" class="logo-footer" />
           <p class="footer-text">Адреса:</p>
@@ -735,6 +740,14 @@
 
 
   <script src="./js/modal.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/animejs/dist/bundles/anime.umd.min.js"></script>
+<script>
+  const { animate } = anime;
+</script>
 </body>
 
 </html>
